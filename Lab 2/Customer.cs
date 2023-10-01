@@ -46,7 +46,7 @@ namespace Lab_2
 
         public override string ToString()
         {
-            return $"Customer: {Username} \nPassword: {Password} \nCart total: {GetTotal()}";
+            return $"Customer: {Username} \nPassword: {Password} \nCart content: \n{string.Join('\n', Cart)} \nCart total: {GetTotal()}";
         }
 
         public static void RegisterCustomer(List<Customer> customers)
