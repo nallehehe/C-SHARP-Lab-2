@@ -133,6 +133,12 @@ namespace Lab_2
                     Customer.RegisterCustomer(customerLog);
                 }
 
+                else if (customerInput == "3")
+                {
+                    Console.WriteLine("Thank you for visting!");
+                    break;
+                }
+
                 else
                 {
                     Console.WriteLine("Invalid input. Enter 1, 2 or 3.");

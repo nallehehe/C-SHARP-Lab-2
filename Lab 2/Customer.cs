@@ -69,7 +69,7 @@ namespace Lab_2
 
             foreach (var product in Cart)
             {
-                cartTotal += product.Price;
+                cartTotal += product.TotalPrice;
             }
 
             return cartTotal;
